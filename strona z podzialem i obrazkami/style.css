@@ -1,0 +1,105 @@
+body
+{
+background-color:grey;
+font-family:Verdana;
+width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#gl
+{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#logo
+{
+	align-self:center;
+}
+#L
+{
+	width:300px;
+	padding:2px;
+	float:left;
+	border:white 3px solid;
+	border-top:white 3px solid;
+}
+
+#L1
+{
+float:top;
+background-color:black;
+color:white;
+}
+#L2
+{
+float:bottom;	
+}
+
+#S
+{
+width:300px;
+margin-righ:auto;
+margin-left:auto;	
+float:left;
+
+
+}
+
+#S1
+{
+	background-color:aqua;
+	float:left;
+	border:3px white solid;
+}
+
+#S11
+{
+	color:red;
+	float:left;
+	width:100px;
+	border:red 3px dotted;
+}
+#S12
+{
+	color:black;
+	float:right;
+	width:100px;
+	border:black 3px dotted;
+}
+#S2
+
+{
+	width:300px;
+	float: left;
+	background-color:white;
+	color:black;
+	border:3px black solid;
+}
+#R
+{
+	width:390px;
+	background:black;
+	color:white;
+	float:left;
+	
+}
+#R1
+{
+	border: red 3px solid;
+	
+}
+#R1:hover
+{
+	color:yellow;
+}
+
+#R2
+{
+	border: red 3px dotted;
+	color:aqua;
+	
+}
+

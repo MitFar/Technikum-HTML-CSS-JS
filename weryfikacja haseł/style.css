@@ -1,0 +1,35 @@
+body
+{
+	background-color:grey;
+}
+#baner
+{
+	background-color:#08826A;
+	height:60px;
+	font-family:Verdana;
+	text-align:right;
+}
+#panellewy
+{
+	background-color:#1E9880;
+	height:550px;
+	width:30%;
+	float:left;
+	
+}
+#panelprawy
+{
+	background-color:#9AC8BF;
+	height:550px;
+	width:70%;
+	text-align:center;
+	float:left;
+}
+#stopka
+{
+	background-color:#08826A;
+	font-family:Verdana;
+	color:white;
+	text-align:right;
+	clear:both;
+}

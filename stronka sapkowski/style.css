@@ -1,0 +1,73 @@
+body
+{
+	background-color:grey;
+	font-family:Verdana;
+}
+#container
+{
+	
+	font-size: 15px;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#logo
+{
+	color:white;
+	margin-top:20px;
+	font-size:20px;
+	letter-spacing:2px;
+	font-weight:900;
+}
+
+#menu
+{
+	background-color: black;
+	margin-top:20px;
+	color:white;
+	padding:10px;
+}
+#topbar
+{
+	float:right;
+}
+.sidebar
+{
+	color:blue;
+	float:left;
+	min-width:20px;
+	border-bottom: dotted 2px red;
+	border-right: dotted 2px red;
+	border-top: dotted 2px red;
+	padding:5px
+}
+.sidebar:hover{
+color:red;
+background-color:aqua;
+}
+
+#content
+{
+	
+}
+#footer
+{
+	
+}
+.option
+{
+	min-width:50px;
+	height:25px;
+	font-size:18px;
+	float:left;
+	padding:10px;
+	border-right:2px dotted red;
+	opacity:0.8;
+}
+.option:hover
+{
+	color:red;
+	background-color:yellow;
+	cursor:pointer;
+}

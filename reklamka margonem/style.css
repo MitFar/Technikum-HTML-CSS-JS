@@ -1,0 +1,46 @@
+#glowny
+{
+	font-family: Verdana;
+	color: yellow;
+	font-size: 40px;
+	width:1000px;
+	background-color: blue;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#logo
+{
+	color: red;
+}
+#lewe
+{
+	float: left;
+	color: red;
+	background-color:grey;
+}
+#prawe
+{
+	float: right;
+	color: blue;
+	background-color:yellow;
+}
+#srodek
+{
+	float: center;
+	color: black;
+}
+#footer
+{
+	clear:both; 
+	color:red;
+	background-color:black;
+}
+a:hover
+{
+	color:red;
+}
+a
+{
+	color:yellow;
+}

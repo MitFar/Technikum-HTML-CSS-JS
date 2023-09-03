@@ -1,0 +1,14 @@
+Nie by³o nic grafiki
+By³y 4 kwerendy, 2 normalne selecty, jeden Alter table ¿eby usun¹æ kolumnê i jeden z joinem
+PHP dwa skrypty, wyœwietlenie listy wyników zapytania SQL jeden po drugim, w drugim skrypcie lista punktowana tak samo z wyœwietleniem danych z bazy
+w CSS wyrównanie poziome lub pionowe
+if byl potrzebny do sprawdzenia numeru gatunku w bazie danych, w sensie sprawdzasz id_gatunku tego zwierzaka i jak jest 4 to piszesz ptak, a jak 5 to ssak
+Najwa¿niejsze co musicie zrobiæ to while($wiersz=mysqli_fetch_array($wynik)) w obu tych skryptach, póŸniej ju¿ macie tablice wiersz ze wszystkimi potrzebnymi informacjami w niej
+
+XD dobra czekajcie
+$zapytanie="TUTAJ WKLEJACIE ZWYKLEGO SELECTA Z PIERWSZEGO ZADANIA, NIC TRUGNEGO OGARNIECIE"
+$wynik=mysqli_query($zapytanie, $polaczenie)
+while($wiersz = mysqli_fetch_array($wynik)){
+echo "gatunek:".$wiersz['gatunek']."<br>";
+}
+No I jakies tam inne informacje pobieracie w ten sam sposób jak wy¿ej

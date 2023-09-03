@@ -1,0 +1,57 @@
+*{
+	font-family:Georgia;
+
+}
+
+
+.logo, .menu{
+	background-color: #63AC74;
+	color:orange;
+	width:50%;
+	text-align:right;
+	font-size:160%;
+	float:left;
+	}
+	
+	.menu a{
+	background-color:orange;
+	color: white;
+	padding:15px;
+	vertical-align: middle;
+	}
+	
+	a{
+	 margin: auto;
+	 text-decoration:none;
+	}
+	
+	
+	.lewo{
+	background-color: #ffccee;
+	width:50%;
+	float:left;
+	height:400px;
+	}
+	
+	
+	.prawo{
+	background-color: #68ffff;
+	width:50%;
+	float:left;
+	height:400px;
+	}
+	
+	
+	
+
+	.stopka{
+	background-color:#63ac74;
+	height:150px;
+	width:100%;
+	float:left;
+	text-align:right;
+}
+
+a:hover{
+	color:black;
+}

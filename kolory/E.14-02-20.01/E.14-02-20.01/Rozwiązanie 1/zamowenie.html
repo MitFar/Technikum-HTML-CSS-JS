@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Fabryka żelków</title>
+        <link rel="stylesheet" type="text/css" href="styl9.css">
+    </head>
+    <body>
+        <div id="header-left">
+            <a href="index.html"><img src="logo.png" alt="logo fabryki"></a>
+        </div>
+        <div id="header-right">
+            <a href="zamowenie.html">Zamówienie</a>
+        </div>
+        <div id="baner">
+            <h2>Zamow nasz produkt</h2>
+        </div>
+        <div id="main-left">
+            <h1>Oferta</h1>
+            <table>
+                <tr>
+                    <td>Kształty</td>
+                    <td>Kolory</td>
+                </tr>
+                <tr>
+                    <td>
+                        <ol>
+                            <li>miś</li>
+                            <li>żabka</li>
+                            <li>serce</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ol>
+                            <li>czerwony</li>
+                            <li>niebieski</li>
+                            <li>żółty</li>
+                            <li>inny</li>
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="main-right">
+            <form>
+                Podaj numer kształtu<br>
+                <input type="number" id="ksztalt"><br>
+                skonponuj swój kolor, podaj RGB:
+                R: <input type="number" id="czerwony">
+                G: <input type="number" id="zielony">
+                B: <input type="number" id="niebieski"><br>
+                <input type="button" value="Zamów" id="zamow">
+                <p id="tekst">Wybrany kształt</p>
+                <input type="button" value="Wybrany kolor" id="kolor">
+            </form>
+        </div>
+        <div id="footer">Autor strony: <i>PESEL</i></div>
+        <script>
+            document.querySelector('#zamow').addEventListener('click', function() {
+                let ksztalt = document.querySelector("#ksztalt").value,
+                    przycisk = document.querySelector("#tekst"),
+                    r = document.querySelector("#czerwony").value,
+                    g = document.querySelector("#zielony").value,
+                    b = document.querySelector("#niebieski").value;
+
+
+                if(ksztalt==1) {przycisk.innerHTML = "Zamówiłeś żelka: miś";}
+                else if(ksztalt==2) {przycisk.innerHTML = "Zamówiłeś żelka: żabka";}
+                else if(ksztalt==3) {przycisk.innerHTML = "Zamówiłeś żelka: serce";}
+                else { przycisk.innerHTML = "Zamówiłeś żelka: inny kształt";}
+
+                document.querySelector("#kolor").style.backgroundColor = "rgb("+r+","+g+","+b+")";
+            });
+            /*Zamiast funkcji addEventListener() wystarczy stworzyć funkcje np. oblicz() i przypisać do przycisku, czyli np.:
+                function oblicz() {
+                    "I tutaj obliczenia"
+                }
+                A w HTML: <input type="button" onclick="oblicz()" value="Zamów" id="zamow">
+            */
+        </script>
+    </body>
+</html>
